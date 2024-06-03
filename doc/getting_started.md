@@ -1637,7 +1637,7 @@ Your output should be:
       "name": "Earth",
       "semiMajorAxis": {
         "unit": "AU",
-        "value": 1.000013321018701
+        "value": 1.0000133691626891
       },
       "types": [
         "Planet",
@@ -1648,7 +1648,7 @@ Your output should be:
       "name": "Mars",
       "semiMajorAxis": {
         "unit": "AU",
-        "value": 1.5235497067284913
+        "value": 1.5235497800772735
       },
       "types": [
         "Planet",
@@ -1659,7 +1659,7 @@ Your output should be:
       "name": "Jupiter",
       "semiMajorAxis": {
         "unit": "AU",
-        "value": 5.2044142469620995
+        "value": 5.204414497520021
       },
       "types": [
         "Planet",
