@@ -1243,7 +1243,7 @@ The mapping below is equivalent to the
 [previous exercise](#writing-to-array-fields), only instead of using `body.name`
 directly, we assign its value to a variable named `tempName`.
 
-``` {highlight="content:\bvar\b content:\bbigName\b"}
+``` {highlight="content:\bvar\b tempName:\bbody.name\b"}
 package my_codelab
 
 PlanetNames: $root.Planets[*].name;
@@ -1362,7 +1362,7 @@ Planet: BodyName_BodyType_BodyInfo($root.Planets[], "Planet")
 Moon: BodyName_BodyType_BodyInfo($root.Moons[], "Moon")
 
 def BodyName_BodyType_BodyInfo(body, bodyType) {
-  name: bigname;
+  name: body.name;
   types[]: bodyType;
   types[]: "Body";
 
