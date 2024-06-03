@@ -1386,7 +1386,7 @@ def BodyName_BodyType_BodyInfo(body, bodyType) {
   "Planet": [
     {
       "name": "Earth",
-      "semiMajorAxisAU": 1.0000142656266688,
+      "semiMajorAxisAU": 1.0000133691626891,
       "types": [
         "Planet",
         "Body"
@@ -1394,7 +1394,7 @@ def BodyName_BodyType_BodyInfo(body, bodyType) {
     },
     {
       "name": "Mars",
-      "semiMajorAxisAU": 1.5235511458665132,
+      "semiMajorAxisAU": 1.5235497800772735,
       "types": [
         "Planet",
         "Body"
@@ -1402,7 +1402,7 @@ def BodyName_BodyType_BodyInfo(body, bodyType) {
     },
     {
       "name": "Jupiter",
-      "semiMajorAxisAU": 5.2044191630277785,
+      "semiMajorAxisAU": 5.204414497520021,
       "types": [
         "Planet",
         "Body"
