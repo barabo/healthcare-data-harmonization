@@ -38,7 +38,7 @@ absPath("./one/two", "three")
 // Returns "file:///foo/bar/baz/one/two"
 absPath("./one/two")
 
-// Returns "file:///foo/bar/baz/one/three"
+// Returns "file:///foo/bar/one/two"
 absPath("../one/two")
 
 // Returns "prefix:///newdir/one/two"
